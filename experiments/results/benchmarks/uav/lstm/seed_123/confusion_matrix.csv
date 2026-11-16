@@ -1,0 +1,6 @@
+actual_class_id,actual_class_name,Blackhole Attack,Flooding Attack,Normal Traffic,Sybil Attack,Wormhole Attack
+0,Blackhole Attack,3126,5,55,2,662
+1,Flooding Attack,0,2674,15,233,50
+2,Normal Traffic,17,10,3844,0,55
+3,Sybil Attack,1,186,16,3494,36
+4,Wormhole Attack,129,42,123,0,3551

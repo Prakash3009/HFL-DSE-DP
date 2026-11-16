@@ -1,0 +1,12 @@
+{
+  "class_ids": {
+    "Blackhole Attack": 0,
+    "Flooding Attack": 1,
+    "Normal Traffic": 2,
+    "Sybil Attack": 3,
+    "Wormhole Attack": 4
+  },
+  "dataset": "uav",
+  "encoding_basis": "sorted original class strings from training split only",
+  "legacy_binary_y_modified": false
+}

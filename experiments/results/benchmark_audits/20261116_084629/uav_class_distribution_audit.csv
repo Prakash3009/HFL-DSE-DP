@@ -1,0 +1,16 @@
+dataset,split,class_name,count,percentage
+uav,train,Wormhole Attack,18350,21.457220032975126
+uav,train,Normal Traffic,18320,21.422140109215494
+uav,train,Blackhole Attack,18277,21.371858885160023
+uav,train,Sybil Attack,16725,19.557057495995043
+uav,train,Flooding Attack,13847,16.19172347665431
+uav,validation,Blackhole Attack,3983,21.73414820473644
+uav,validation,Normal Traffic,3926,21.423114700425625
+uav,validation,Wormhole Attack,3891,21.232129215322495
+uav,validation,Sybil Attack,3619,19.747899159663866
+uav,validation,Flooding Attack,2907,15.862708719851575
+uav,test,Normal Traffic,3926,21.423114700425625
+uav,test,Blackhole Attack,3850,21.008403361344538
+uav,test,Wormhole Attack,3845,20.981119720615517
+uav,test,Sybil Attack,3733,20.369966168285497
+uav,test,Flooding Attack,2972,16.217396049328823

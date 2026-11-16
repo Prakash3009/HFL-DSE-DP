@@ -1,0 +1,29 @@
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Raw datasets (obtain separately)
+data/raw/
+
+# Logs and temporary files
+logs/
+*.log
+.DS_Store
+
+# Duplicate audit archive
+audit_bundle/
+HFL-DSE-DP-audit.zip
+
+# Local editor settings
+.vscode/
+.idea/

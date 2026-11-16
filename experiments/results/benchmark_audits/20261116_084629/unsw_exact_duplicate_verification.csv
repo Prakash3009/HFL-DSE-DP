@@ -1,0 +1,4 @@
+dataset,comparison,verified_shared_unique_vectors,matching_record_pairs,same_label_pairs,different_label_pairs
+unsw,train_vs_validation,5011,300079,228094,71985
+unsw,train_vs_test,1193,115417,95313,20104
+unsw,validation_vs_test,544,22148,17966,4182

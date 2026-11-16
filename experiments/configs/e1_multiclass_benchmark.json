@@ -1,0 +1,25 @@
+{
+  "experiment": "E1 standalone multiclass benchmark",
+  "datasets": {
+    "uav": {"display_name": "UAV-IDS", "classes": 5, "feature_count": 15},
+    "unsw": {"display_name": "UNSW-NB15", "classes": 10, "feature_count": 191}
+  },
+  "models": {
+    "mlp": {"display_name": "MLP/DNN", "architecture": "input -> 256 -> 128 -> classes; ReLU, dropout=0.2"},
+    "cnn1d": {"display_name": "1D-CNN", "architecture": "Conv1d 1->32 k5, maxpool2, Conv1d 32->64 k3, adaptive average pool"},
+    "resnet1d": {"display_name": "1D-ResNet", "architecture": "stem 1->32 k5; two 32-channel residual blocks, dilations 1 and 2"},
+    "gru": {"display_name": "GRU", "architecture": "one-layer GRU, scalar feature input, hidden=48"},
+    "lstm": {"display_name": "LSTM", "architecture": "one-layer LSTM, scalar feature input, hidden=48"},
+    "bilstm": {"display_name": "BiLSTM", "architecture": "one-layer bidirectional LSTM, scalar feature input, hidden=48 per direction"},
+    "cnn_gru": {"display_name": "CNN-GRU", "architecture": "Conv1d 1->32 k5 and 32->32 k3; one-layer GRU hidden=48"},
+    "cnn_lstm": {"display_name": "CNN-LSTM", "architecture": "Conv1d 1->32 k5 and 32->32 k3; one-layer LSTM hidden=48"},
+    "tcn": {"display_name": "TCN", "architecture": "32 channels; three residual two-convolution blocks with dilations 1,2,4; global mean pool"},
+    "tiny_transformer": {"display_name": "Tiny Transformer", "architecture": "input projection to 32; learned position embedding; 2 encoder layers, 4 heads, FFN=64"}
+  },
+  "seeds": [42, 123, 2026],
+  "training": {"loss": "unweighted CrossEntropyLoss", "optimizer": "Adam", "learning_rate": 0.001, "batch_size": 256, "max_epochs": 30, "early_stopping_metric": "validation Macro-F1", "patience": 5, "device": "cpu", "torch_threads": 6},
+  "prediction": "argmax of softmax probabilities",
+  "feature_sequence_note": "Ordered tabular feature vectors are sequence-like inputs for CNN/RNN/TCN/Transformer architectural comparison; they are not temporal sequences.",
+  "metrics": {"precision_recall_f1": "support-weighted", "macro_f1": "unweighted class mean", "mcc": "multiclass Matthews correlation coefficient", "roc_auc": "macro one-vs-rest ROC AUC over softmax probabilities", "pr_auc": "macro arithmetic mean of per-class one-vs-rest trapezoidal precision-recall AUC"},
+  "class_weighting": "none"
+}

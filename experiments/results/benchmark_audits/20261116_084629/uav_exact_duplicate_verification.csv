@@ -1,0 +1,4 @@
+dataset,comparison,verified_shared_unique_vectors,matching_record_pairs,same_label_pairs,different_label_pairs
+uav,train_vs_validation,1070,6824,6824,0
+uav,train_vs_test,1070,7135,7135,0
+uav,validation_vs_test,529,1551,1551,0

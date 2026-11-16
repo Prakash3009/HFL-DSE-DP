@@ -1,0 +1,86 @@
+{
+    "domain": "uav",
+    "partition_type": "noniid",
+    "number_of_clients": 5,
+    "clients": [
+        {
+            "client_id": 1,
+            "samples": 22379,
+            "features": 15,
+            "binary_class_counts": {
+                "0": 2277,
+                "1": 20102
+            },
+            "original_category_counts": {
+                "Flooding Attack": 8767,
+                "Wormhole Attack": 5936,
+                "Blackhole Attack": 5289,
+                "Normal Traffic": 2277,
+                "Sybil Attack": 110
+            }
+        },
+        {
+            "client_id": 2,
+            "samples": 30551,
+            "features": 15,
+            "binary_class_counts": {
+                "0": 7736,
+                "1": 22815
+            },
+            "original_category_counts": {
+                "Sybil Attack": 16351,
+                "Normal Traffic": 7736,
+                "Blackhole Attack": 3580,
+                "Flooding Attack": 1916,
+                "Wormhole Attack": 968
+            }
+        },
+        {
+            "client_id": 3,
+            "samples": 16169,
+            "features": 15,
+            "binary_class_counts": {
+                "0": 753,
+                "1": 15416
+            },
+            "original_category_counts": {
+                "Blackhole Attack": 8219,
+                "Wormhole Attack": 4043,
+                "Flooding Attack": 3115,
+                "Normal Traffic": 753,
+                "Sybil Attack": 39
+            }
+        },
+        {
+            "client_id": 4,
+            "samples": 1781,
+            "features": 15,
+            "binary_class_counts": {
+                "0": 124,
+                "1": 1657
+            },
+            "original_category_counts": {
+                "Wormhole Attack": 1279,
+                "Blackhole Attack": 191,
+                "Sybil Attack": 138,
+                "Normal Traffic": 124,
+                "Flooding Attack": 49
+            }
+        },
+        {
+            "client_id": 5,
+            "samples": 14639,
+            "features": 15,
+            "binary_class_counts": {
+                "0": 7430,
+                "1": 7209
+            },
+            "original_category_counts": {
+                "Normal Traffic": 7430,
+                "Wormhole Attack": 6124,
+                "Blackhole Attack": 998,
+                "Sybil Attack": 87
+            }
+        }
+    ]
+}

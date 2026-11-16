@@ -1,0 +1,112 @@
+{
+    "domain": "unsw",
+    "partition_type": "iid",
+    "number_of_clients": 5,
+    "clients": [
+        {
+            "client_id": 1,
+            "samples": 29808,
+            "features": 191,
+            "binary_class_counts": {
+                "0": 9640,
+                "1": 20168
+            },
+            "original_category_counts": {
+                "Normal": 9640,
+                "Generic": 6744,
+                "Exploits": 5582,
+                "Fuzzers": 3145,
+                "DoS": 2066,
+                "Reconnaissance": 1756,
+                "Analysis": 355,
+                "Backdoor": 297,
+                "Shellcode": 202,
+                "Worms": 21
+            }
+        },
+        {
+            "client_id": 2,
+            "samples": 29808,
+            "features": 191,
+            "binary_class_counts": {
+                "0": 9508,
+                "1": 20300
+            },
+            "original_category_counts": {
+                "Normal": 9508,
+                "Generic": 6753,
+                "Exploits": 5702,
+                "Fuzzers": 3080,
+                "DoS": 2083,
+                "Reconnaissance": 1830,
+                "Analysis": 357,
+                "Backdoor": 295,
+                "Shellcode": 179,
+                "Worms": 21
+            }
+        },
+        {
+            "client_id": 3,
+            "samples": 29808,
+            "features": 191,
+            "binary_class_counts": {
+                "0": 9387,
+                "1": 20421
+            },
+            "original_category_counts": {
+                "Normal": 9387,
+                "Generic": 6798,
+                "Exploits": 5730,
+                "Fuzzers": 3140,
+                "DoS": 2087,
+                "Reconnaissance": 1807,
+                "Analysis": 334,
+                "Backdoor": 321,
+                "Shellcode": 187,
+                "Worms": 17
+            }
+        },
+        {
+            "client_id": 4,
+            "samples": 29808,
+            "features": 191,
+            "binary_class_counts": {
+                "0": 9425,
+                "1": 20383
+            },
+            "original_category_counts": {
+                "Normal": 9425,
+                "Generic": 6949,
+                "Exploits": 5665,
+                "Fuzzers": 3055,
+                "DoS": 2082,
+                "Reconnaissance": 1779,
+                "Backdoor": 323,
+                "Analysis": 312,
+                "Shellcode": 191,
+                "Worms": 27
+            }
+        },
+        {
+            "client_id": 5,
+            "samples": 29807,
+            "features": 191,
+            "binary_class_counts": {
+                "0": 9640,
+                "1": 20167
+            },
+            "original_category_counts": {
+                "Normal": 9640,
+                "Generic": 6715,
+                "Exploits": 5803,
+                "Fuzzers": 3025,
+                "DoS": 2079,
+                "Reconnaissance": 1730,
+                "Analysis": 317,
+                "Backdoor": 269,
+                "Shellcode": 206,
+                "Worms": 23
+            }
+        }
+    ]
+}

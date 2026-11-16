@@ -1,0 +1,21 @@
+{
+  "dataset": "uav",
+  "feature_count": 15,
+  "feature_order": [
+    "numeric__FlowDuration/s",
+    "numeric__TxPackets",
+    "numeric__RxPackets",
+    "numeric__LostPackets",
+    "numeric__TxBytes",
+    "numeric__RxBytes",
+    "numeric__TxPacketRate/s",
+    "numeric__RxPacketRate/s",
+    "numeric__TxByteRate/s",
+    "numeric__MeanDelay/s",
+    "numeric__MeanJitter/s",
+    "numeric__Throughput/Kbps",
+    "numeric__MeanPacketSize",
+    "numeric__PacketDropRate",
+    "numeric__AverageHopCount"
+  ]
+}
